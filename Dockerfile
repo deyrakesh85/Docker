@@ -13,4 +13,5 @@ RUN yum install -y git && \
 # Install Jenkins
 RUN yum install -y jenkins && \
         yum clean all
+EXPOSE 8080
         
