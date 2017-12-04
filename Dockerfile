@@ -14,4 +14,6 @@ RUN yum install -y git && \
 RUN yum install -y jenkins && \
         yum clean all
 EXPOSE 8080
+
+PORT 8080:8080/tcp
         
